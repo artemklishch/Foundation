@@ -8,6 +8,9 @@ html{
 .page{
     width: 1400px;
     margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 .header{
     width: 1140px;
@@ -77,4 +80,21 @@ html{
 .top-section{
     background-color: #F3C6Bd;
     padding-top: 39px;
+}
+.footer{
+    height: 50px;
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+.footer-links{
+    height: 50px;
+}
+.footer__line{
+    border: 1px solid #2B292D;
+    width: 100%;
+    margin: 0;
+    opacity: 0.1;
 }
