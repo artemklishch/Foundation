@@ -93,8 +93,15 @@ html{
     margin: 0 auto;
 }
 .terms{
-    width: 1400px;
-    margin: 0 auto;
+    /*width: 1400px;
+    margin: 0 auto;*/
+    line-height: 50px;
+    font-size: 14px;
+}
+.terms__items{
+    text-decoration: none;
+    color: rgba(43, 41, 45, 0.6);
+    margin-right: 22px;
 }
 .footer__line{
     border: 1px solid #2B292D;
@@ -106,4 +113,7 @@ html{
     width: 1400px;
     margin: 0 auto;
     height: 338px;
+}
+.solial-links__item{
+
 }
