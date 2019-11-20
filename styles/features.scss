@@ -5,6 +5,9 @@
   @include for-large-down {
     display: none;
   }
+  @include for-large-up {
+    padding-bottom: 103px;
+  }
   &__content {
     width: 1140px;
     margin: auto;
