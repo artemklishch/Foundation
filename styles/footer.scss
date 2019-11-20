@@ -33,7 +33,9 @@
         }
     }  
 }
+
 .footer-navigation{
+    margin: 0;
     display: flex;
     flex-direction: column;
 
@@ -64,13 +66,13 @@
     margin-top: 44px;
 }
 .additional-navigation{
-    margin: 0 15px;
+    margin-left: 15px;
+    margin-right: 15px;
     display: flex;
     flex-direction: column;
 
     @include for-large-up{
         flex-direction: row;
-        margin: 0;
         margin-top: 60px;
         margin-left: auto;
     }
@@ -122,6 +124,8 @@
     }
 }
 
+
+
 .terms{
     line-height: 22px;
     font-size: 14px;
@@ -155,8 +159,6 @@
         }
     }
 }
-
-
 
 .logo-vertical{
     display: flex;
