@@ -1447,6 +1447,7 @@
     display: flex;
     padding: 26px 0 26px 25px;
     margin-bottom: 20px;
+    cursor: pointer;
     transition: 0.2s;
   }
   .hiring-list-for-desktop__item:last-child {
