@@ -1,5 +1,6 @@
 .communicate {
   padding: 50px 15px;
+  transition: 1s;
   &__half-underline{
     height: 1px;
     background-color: $color-black;
@@ -33,6 +34,7 @@
         font-size: 40px;
         line-height: 40px;
         letter-spacing: -0.357143px;
+        transition: 1s;
         @include for-large-up{
             margin-top: 24px;
             font-size: 56px;
@@ -45,6 +47,7 @@
         margin-top: 18px;
         font-size: 24px;
         line-height: 34px;
+        transition: 1s;
         @include for-large-up{
             margin-top: 30px;
         }
@@ -62,6 +65,7 @@
           inset 0px 1px 0px rgba(255, 255, 255, 0.1);
         border-radius: 2px;
         margin-top: 30px;
+        transition: 1s;
         @include for-large-up{
             margin-top: 56px;
         }
@@ -79,9 +83,10 @@
         margin-top: 17px;
     }
     &__smallimage-img {
-    max-width: 100%;
-    display: block;
-    margin: auto;
+        max-width: 100%;
+        display: block;
+        margin: auto;
+        transition: 1s;
     }
     @include for-large-up{
         display: none;
@@ -91,6 +96,7 @@
     display: none;
     margin: 0;
     margin-left: 194px;
+    transition: 1s;
     @include for-large-up{
         display: block;
     }
@@ -98,6 +104,7 @@
 .communicate-additional-p{
     font-size: 18px;
     line-height: 26px;
+    transition: 1s;
     &__p-add-inform{
         margin: 0;
         margin-top: 33px;
@@ -116,6 +123,10 @@
         padding: 41px 130px 0 128px;
         &__p-add-inform{
             margin-top: 0;
+            margin-right: 30px;
+        }
+        &__p-add-inform:last-child{
+            margin-right: 0;
         }
     }
 }

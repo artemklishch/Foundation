@@ -1,7 +1,7 @@
 .features {
   display: flex;
   position: relative;
-
+  transition: 1s;
   @include for-large-down {
     display: none;
   }

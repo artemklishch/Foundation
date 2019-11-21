@@ -1,7 +1,7 @@
 .order{
     padding: 50px 15px;
     background-color: $color-light;
-    
+    transition: 1s;    
     @include for-large-up{
         padding: 73px 0 72px 0;
         display: flex;
@@ -17,6 +17,7 @@
         max-width: 200px;
         display: block;
         margin: auto;
+        transition: 1s;
         @include for-large-up{
             max-width: 269px;
             margin: 0;
@@ -37,6 +38,7 @@
         margin-top: 18px;
     }
     &__form{
+        transition: 1s;
         @include for-large-up{
            display: flex;
            margin-top: 26px;
@@ -50,7 +52,7 @@
         width: 100%;
         text-align: center;
         font-size: 18px;
-
+        transition: 1s;
         @include for-large-up{
             margin-top: 0;
         }
@@ -62,6 +64,7 @@
     }
     &__button{
         margin-top: 12px;
+        transition: 1s;
         @include for-large-down{
             width: 100%;
         }

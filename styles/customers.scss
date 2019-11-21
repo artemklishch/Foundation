@@ -1,14 +1,14 @@
 .customers{
     display: flex;
     flex-direction: column;
-
+    transition: 1s;
     @include for-large-up{
         width: 1140px;
         margin: auto;
         padding-top: 30px;
         padding-bottom: 106px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         flex-direction: row;
         
@@ -16,6 +16,7 @@
 
     &__row{
         display: flex;
+        transition: 1s;
         @include for-large-up{
             flex: 1;
             justify-content: space-around;
@@ -30,6 +31,7 @@
         justify-content: center;
         align-items: center;
         flex: 1;
+        transition: 1s;
         &:last-child{
             border-right: none;
         }
@@ -40,5 +42,11 @@
     &__logo{
         filter: brightness(0);
         max-width: 80%;
+    }
+}
+.customers.agen{
+    transition: 1s;
+    @include for-large-up{
+        padding-bottom: 76px;
     }
 }
