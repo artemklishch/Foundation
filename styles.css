@@ -1021,6 +1021,13 @@
   margin-left: 194px;
   transition: 1s;
 }
+.communicate-bigimage figcaption {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #807f81;
+  margin-top: 15px;
+}
 @media (min-width: 1400px) {
   .communicate-bigimage {
     display: block;
