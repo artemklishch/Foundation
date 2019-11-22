@@ -93,8 +93,8 @@
   }
 }
 .customers__item {
-  width: 94px;
-  height: 107px;
+  width: 107px;
+  height: 94px;
   border-bottom: 1px solid #E3E3E3;
   border-right: 1px solid #E3E3E3;
   display: flex;
@@ -247,6 +247,7 @@
   line-height: 40px;
   letter-spacing: -0.357143px;
   margin-top: 40px;
+  margin-bottom: 0;
 }
 .order__text {
   font-size: 24px;
@@ -783,7 +784,7 @@
   align-items: center;
 }
 .tip__image {
-  margin-top: 29px;
+  margin-top: 20px;
 }
 .tip__image-caption {
   font-size: 14px;
@@ -798,7 +799,7 @@
 }
 
 .inbox {
-  background-color: #FCF0E3;
+  background-color: #fefbf8;
   padding: 50px 15px;
   transition: 1s;
 }
@@ -975,7 +976,7 @@
   }
 }
 .communication-main-block__button {
-  padding: 17px 28px 18px 28px;
+  padding: 17px 30px 18px 30px;
   background-color: #3040C4;
   font-weight: 700;
   font-size: 18px;
@@ -1050,9 +1051,8 @@
 }
 .communication-additional-p__p-add-inform a {
   display: block;
-  color: #1870f4;
+  color: #054cb7;
   margin: 0;
-  margin-top: 10px;
 }
 @media (min-width: 1400px) {
   .communication-additional-p {
@@ -1222,6 +1222,10 @@
   .audience-bottom-section .audience-fifth-link {
     padding: 22px 72px 33px 71px;
   }
+}
+
+.headline__learn-more-btn.headline__actions-btn.audience-learn-more-btn {
+  color: #000;
 }
 
 .feedback {

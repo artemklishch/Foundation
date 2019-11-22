@@ -53,7 +53,7 @@
         }
       }
       &__button {
-        padding: 17px 28px 18px 28px;
+        padding: 17px 30px 18px 30px;
         background-color: $color-darkblue;
         font-weight: 700;
         font-size: 18px;
@@ -122,7 +122,6 @@
             display: block;
             color: $text-color-blue-type2;
             margin: 0;
-            margin-top: 10px;
         }
     }
     @include for-large-up{
