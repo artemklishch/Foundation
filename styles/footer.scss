@@ -143,6 +143,8 @@
   margin-bottom: 23px;
   transition: 1s;
   @include for-large-up {
+    margin-top: 0;
+    margin-bottom: 0;
     margin-left: auto;
   }
   &__item {
