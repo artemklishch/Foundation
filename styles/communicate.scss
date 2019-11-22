@@ -97,6 +97,13 @@
     margin: 0;
     margin-left: 194px;
     transition: 1s;
+    figcaption{
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        color: $text-color-greyforfigcaption;
+        margin-top: 15px;
+    }
     @include for-large-up{
         display: block;
     }
