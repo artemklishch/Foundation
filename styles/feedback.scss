@@ -1,4 +1,4 @@
-.baloon{
+.feedback{
     padding: 39px 15px 50px 15px;
     border-bottom: 1px solid $color-like-grey-for-baloonborderbottom;
     transition: 1s;
@@ -24,7 +24,7 @@
         }
     }
 }
-.baloon-article__title{
+.feedback-article__title{
     margin: 0;
     font-weight: bold;
     font-size: 24px;
@@ -35,7 +35,7 @@
         margin: 0 130px;
     }
 }
-.baloon-article__description{
+.feedback-article__description{
     margin: 0;
     margin-top: 29px;
     font-size: 24px;
@@ -45,14 +45,14 @@
         margin: 28px 325px 0 325px;
     }
 }
-.baloon-article__person-name{
+.feedback-article__person-name{
     margin: 0;
     margin-top: 32px;
     font-size: 16px;
     line-height: 24px;
     font-weight: 700;
     transition: 1s;
-    .baloon-article__person-ocupation{
+    .feedback-article__person-ocupation{
         font-weight: normal;
         color: $text-color-darkgrey;
     }
@@ -60,7 +60,7 @@
         margin-top: 34px;
     }
 }
-.baloon-dots{
+.feedback-dots{
     display: flex;
     justify-content: center;
     margin-top: 40px;

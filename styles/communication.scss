@@ -1,4 +1,4 @@
-.communicate {
+.communication {
   padding: 50px 15px;
   transition: 1s;
   &__half-underline{
@@ -10,7 +10,7 @@
   }
   @include for-large-up{
       padding: 110px 0;
-      .communicate-main-sector{
+      .communication-main-sector{
           display: flex;
           padding: 0 193px 68px 126px;
       }
@@ -19,7 +19,7 @@
       }
   }
 }
-.communicate-main-block{
+.communication-main-block{
     &__subtitle {
         margin: 0;
         font-weight: 700;
@@ -72,7 +72,7 @@
       }
 
 }
-.communicate-smallimage{
+.communication-smallimage{
     margin: 0;
     margin-top: 40px;
     figcaption{
@@ -92,7 +92,7 @@
         display: none;
     }
 }
-.communicate-bigimage{
+.communication-bigimage{
     display: none;
     margin: 0;
     margin-left: 194px;
@@ -108,7 +108,7 @@
         display: block;
     }
 }
-.communicate-additional-p{
+.communication-additional-p{
     font-size: 18px;
     line-height: 26px;
     transition: 1s;

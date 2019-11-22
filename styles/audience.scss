@@ -1,4 +1,4 @@
-.engage-visitors {
+.audience {
   padding: 50px 15px;
   background-color: $color-like-blue_forengagevisitors;
   transition: 1s;
@@ -6,7 +6,7 @@
     padding: 108px 131px 110px 130px;
   }
 }
-.engage-top-section {
+.audience-top-section {
   text-align: center;
   transition: 1s;
   @include for-large-up {
@@ -44,14 +44,14 @@
     }
   }
 }
-.engage__actions {
+.audience__actions {
   margin-top: 30px;
   transition: 1s;
   @include for-large-up {
     margin-top: 34px;
   }
 }
-.engage-bottom-section {
+.audience-bottom-section {
   margin-top: 40px;
   transition: 1s;
   @include for-large-up {
@@ -100,28 +100,28 @@
     display: block;
     margin: auto;
   }
-  .engage-first-link {
+  .audience-first-link {
     padding: 22px 76px 33px 76px;
     transition: 1s;
     @include for-large-up {
       padding: 22px 62px 33px 62px;
     }
   }
-  .engage-second-link {
+  .audience-second-link {
     padding: 22px 74px 33px 74px;
     transition: 1s;
     @include for-large-up {
       padding: 22px 60px 33px 60px;
     }
   }
-  .engage-fourth-link {
+  .audience-fourth-link {
     padding: 22px 65px 33px 65px;
     transition: 1s;
     @include for-large-up {
       padding: 22px 51px 33px 51px;
     }
   }
-  .engage-fifth-link {
+  .audience-fifth-link {
     padding: 22px 100px 33px 71px;
     transition: 1s;
     @include for-large-up {
